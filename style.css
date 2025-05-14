@@ -67,6 +67,7 @@ h6 {
     display: flex;
     flex-direction: column;
     padding: 31px 130px 0px 130px;
+    overflow: hidden;
     gap: 36px;
 }
 
@@ -265,3 +266,63 @@ h6 {
     width: 526px;
     height: 500px;
 }
+
+
+
+
+
+
+/* ADAPTATION STARTS HERE */
+
+@media only screen and (max-width: 1270px) { 
+    
+    .header {
+        width: calc(100% - 84px);
+        height: calc(660px - 31px);
+
+        padding: 31px 42px 0px 42px;
+        gap: 43px;
+    }
+
+    .header__main-image {
+        width: 460px;
+        height: auto;
+    }
+
+    .header-request-button {
+        margin: 0;
+    }
+
+    .header__hero-wrapper {
+        align-items: flex-start;
+    }
+
+    h1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 110%;
+    }
+
+    h5 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 110%;
+    }
+}
+
+@media only screen and (max-width: 1024px) { 
+
+    .header__hero-text-wrapper {
+        gap: 30px;
+        top: 103px;
+    }
+
+    .know-more-button {
+        margin-top: 2px;
+    }
+}
+
