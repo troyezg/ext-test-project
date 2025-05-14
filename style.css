@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-VariableFont_opsz\,wght.woff2') format("woff2-variations");
+    font-weight: 100 1000;
+    font-display: swap;
+    font-optical-sizing: auto;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+
+    color: #FFFFFF;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+
+    color: #FFFFFF;
+}
+
+h6 {
+    margin: 0;
+}
+
+
+.header {
+    position: relative;
+    width: calc(100% - 260px);
+    height: calc(700px - 31px);
+
+    background-color: #0E243A;
+
+    display: flex;
+    flex-direction: column;
+    padding: 31px 130px 0px 130px;
+    gap: 36px;
+}
+
+.header__navigation-wrapper {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__logo {
+    position: relative;
+    width: 209px;
+    height: 33px;
+    margin-top: 3px;
+}
+
+.header__buttons-wrapper {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 58px;
+}
+
+.header__navigation {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.navigation__link {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1;
+
+    color: #FFFFFF;
+    transition: color 0.25s ease-in-out;
+}
+
+.navigation__link:hover {
+    color: #50E965;
+    transition: color 0.25s ease-in-out;
+}
+
+.navigation__link:active {
+    color: #50E965;
+    transition: color 0.25s ease-in-out;
+}
+
+.transparent-button {
+    position: relative;
+    width: 193px;
+    height: 46px;
+
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.25s ease-in-out;
+}
+
+.transparent-button:hover {
+    background-color: #FFFFFF;
+    transition: all 0.25s ease-in-out;
+
+    .transparent-button__text {
+        color: #0E243A;
+        transition: all 0.25s ease-in-out;
+    }
+}
+
+.transparent-button:active {
+    background-color: #FFFFFF;
+    transition: all 0.25s ease-in-out;
+
+    .transparent-button__text {
+        color: #0E243A;
+        transition: all 0.25s ease-in-out;
+    }
+}
+
+.transparent-button__text {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1;
+
+    color: #FFFFFF;
+    transition: all 0.25s ease-in-out;
+}
+
+.header-request-button {
+    margin-right: 6px;
+}
+
+.header__hero-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+}
+
+.header__hero-text-wrapper {
+    position: relative;
+    width: 522px;
+    height: fit-content;
+    top: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.header__title {
+    position: relative;
+    width: 645px;
+    height: fit-content;
+}
+
+.header__title-color-accent {
+    color: #39B54A;
+}
+
+.header__text {
+    position: relative;
+    width: 510px;
+    height: fit-content;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.green-button {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 35px;
+    gap: 10px;
+
+    width: 183px;
+    height: 46px;
+
+    background: #39B54A;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.green-button__text {
+    position: relative;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1;
+
+    color: #FFFFFF;
+}
+
+.know-more-button {
+    margin-top: 8px;
+}
+
+.header__main-image {
+    position: relative;
+    width: 526px;
+    height: 500px;
+}
