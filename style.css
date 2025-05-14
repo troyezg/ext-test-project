@@ -239,10 +239,21 @@ h6 {
     width: 183px;
     height: 46px;
 
-    background: #39B54A;
+    background-color: #39B54A;
     border-radius: 10px;
     outline: none;
     border: none;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.green-button:hover {
+    background-color: #24A135;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.green-button:active {
+    background-color: #24A135;
+    transition: background-color 0.25s ease-in-out;
 }
 
 .green-button__text {
@@ -279,7 +290,12 @@ h6 {
     padding: 0;
 }
 
-
+.header__mobile-main-image {
+    display: none;
+    position: relative;
+    width: 300px;
+    height: auto;
+}
 
 
 /* ADAPTATION STARTS HERE */
@@ -393,6 +409,94 @@ h6 {
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
+        line-height: 110%;
+    }
+}
+
+@media only screen and (max-width: 767px) {  
+    .header__hero-text-wrapper {
+        width: 100%;
+    }
+
+    .header__title {
+        width: 100%;
+    }
+
+    .header__title-br {
+        display: none;
+    }
+
+    .header__text {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 568px) { 
+    .header__main-image {
+        display: none;
+    }
+
+    .header__mobile-main-image {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 460px) { 
+
+    .header {
+        width: calc(100% - 20px);
+        height: calc(760px - 28px);
+
+        padding: 28px 10px 0px 10px;
+        gap: 43px;
+    }
+
+    .header__logo {
+        width: 168px;
+        height: 26px;
+        margin-top: 0px;
+    }
+
+    .header__burger-menu-icon {
+        width: 24px;
+        height: 17px;
+    }
+
+    .header__hero-text-wrapper {
+        margin-top: 19px;
+        gap: 12px;
+    }
+
+    .header__title {
+        line-height: 125%;
+        font-size: 28px;
+        width: 300px;
+    }
+
+    .header__text {
+        line-height: 150%;
+        font-size: 14px;
+        width: 270px;
+    }
+
+    .know-more-button {
+        margin-top: 14px;
+    }
+
+    h1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 110%;
+    }
+
+    h5 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
         line-height: 110%;
     }
 }
