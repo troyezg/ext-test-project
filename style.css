@@ -488,6 +488,7 @@ h6 {
 .how-section__title {
     color: #0E243A;
     margin-top: 10px;
+    text-align: center;
 }
 
 .how-section__steps-wrapper {
@@ -668,6 +669,30 @@ h6 {
         line-height: 110%;
     }
 
+    h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 110%;
+    }
+
+    h3 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 110%;
+    }
+
+    h4 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 110%;
+    }
+
     h5 {
         font-family: 'Inter';
         font-style: normal;
@@ -720,6 +745,10 @@ h6 {
 
     .header__mobile-main-image {
         display: block;
+    }
+
+    .header {
+        height: calc(910px - 31px);
     }
 }
 
@@ -782,6 +811,30 @@ h6 {
         line-height: 110%;
     }
 
+    h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 110%;
+    }
+
+    h3 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 110%;
+    }
+
+    h4 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 110%;
+    }
+
     h5 {
         font-family: 'Inter';
         font-style: normal;
@@ -798,5 +851,11 @@ h6 {
             width: 24px !important;
             height: 3px !important;
         }
+    }
+
+    .how-section {
+        width: calc(100% - 20px);
+        height: calc(614px - 54px);
+        padding: 54px 10px 0px 10px;
     }
 }
