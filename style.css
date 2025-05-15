@@ -810,7 +810,7 @@ h6 {
 
 .request-section__background {
     position: relative;
-    width: calc(1180px - 200px);
+    width: calc(100% - 200px);
     height: calc(413px - 100px);
     padding: 100px 100px 0px 100px;
 
@@ -1081,6 +1081,16 @@ h6 {
 
     .api-section__image {
         padding-top: 8px;
+    }
+
+    .request-section {
+        width: calc(100% - 84px);
+        padding: 50px 42px 130px 42px;
+    }
+
+    .request-section__background {
+        width: calc(100% - 120px);
+        padding: 100px 60px 0px 60px;
     }
 }
 
