@@ -703,8 +703,8 @@ h6 {
 
     .how-section {
         width: calc(100% - 128px);
-        height: calc(614px - 54px);
-        padding: 54px 64px 0px 64px;
+        height: fit-content;
+        padding: 54px 64px 50px 64px;
     }
 
     .how-section__step {
@@ -855,7 +855,28 @@ h6 {
 
     .how-section {
         width: calc(100% - 20px);
-        height: calc(614px - 54px);
-        padding: 54px 10px 0px 10px;
+        height: fit-content;
+        padding: 80px 10px 50px 10px;
+        gap: 40px;
+    }
+
+    .how-section__title {
+        margin-top: 3px;
+    }
+
+    .how-section__text {
+        text-align: center;
+        font-size: 15px;
+        line-height: 140%;
+
+    }
+
+    .how-section__steps-wrapper {
+        gap: 50px;
+    }
+
+    .how-section__step {
+        gap: 20px;
+        align-items: center;
     }
 }
