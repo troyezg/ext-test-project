@@ -733,6 +733,10 @@ h6 {
     margin-top: 7px;
 }
 
+#partners-image-mobile {
+    display: none;
+}
+
 /* ADAPTATION STARTS HERE */
 
 @media only screen and (max-width: 1270px) { 
@@ -1013,6 +1017,37 @@ h6 {
 
     .get-subscription-button {
         margin: 0;
+    }
+
+    .partners-section {
+        justify-content: center;
+    }
+
+    .partners-section__data-wrapper {
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .partners-section__title {
+        width: 380px;
+        text-align: center;
+    }
+
+    .partners-section__text {
+        width: 440px;
+        text-align: center;
+    }
+
+    .partners-section__image {
+        margin-top: 17px;
+    }
+
+    #partners-image-desktop {
+        display: none;
+    }
+
+    #partners-image-mobile {
+        display: block;
     }
 }
 
