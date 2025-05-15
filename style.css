@@ -587,6 +587,7 @@ h6 {
         height: calc(542px - 110px);
         width: calc(100% - 84px);
         padding: 110px 42px 0px 42px;
+        gap: 64px;
     }
 
     .how-section__steps-wrapper {
@@ -681,8 +682,16 @@ h6 {
         padding: 54px 64px 0px 64px;
     }
 
+    .how-section__step {
+        gap: 20px;
+    }
+
     .how-section__text {
-        width: 270px;
+        width: 285px;
+    }
+
+    .how-section__steps-wrapper { 
+        gap: 64px;
     }
 }
 
