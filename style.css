@@ -523,6 +523,9 @@ h6 {
     width: calc(100% - 260px);
     height: 601px;
     padding: 0px 130px 0px 130px;
+
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
 }
 
@@ -773,7 +776,7 @@ h6 {
     }
 
     .cost-section__title-wrapper {
-        gap: 28px;
+        gap: 26px;
     }
 
 }
@@ -890,6 +893,58 @@ h6 {
 
     .how-section__steps-wrapper { 
         gap: 64px;
+    }
+
+    .cost-section__data-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .cost-section {
+        width: calc(100% - 128px);
+        height: fit-content;
+        padding: 50px 64px 0px 64px;
+        gap: 20px;
+    }
+
+    .cost-section__image {
+        width: 640px;
+        height: 427px;
+    }
+
+    .cost-section___subscription-wrapper {
+        align-items: center;
+        margin: 0;
+    }
+
+    .cost-section__data-wrapper {
+        gap: 24px;
+    }
+
+    .subscription-line-wrapper {
+        width: fit-content;
+    }
+
+    .subscription-line {
+        width: fit-content;
+        margin-left: 65px;
+        height: 24px;
+    }
+
+    .subscription-text {
+        width: 400px;
+    }
+
+    .subscription-price {
+        margin-top: 28px;
+    }
+
+    .subscription-conditions {
+        margin-top: -6px;
+        text-align: center;
+    }
+
+    .get-subscription-button {
+        margin: 0;
     }
 }
 
