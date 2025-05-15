@@ -495,7 +495,7 @@ h6 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 65px;
 }
 
 .how-section__step {
@@ -508,7 +508,7 @@ h6 {
 
 .how-section__text {
     color: #0E243A;
-    width: 223px;
+    width: 250px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -551,12 +551,51 @@ h6 {
         line-height: 110%;
     }
 
+    h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 110%;
+    }
+
+    h3 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 110%;
+    }
+
+    h4 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 110%;
+    }
+
     h5 {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
         line-height: 110%;
+    }
+
+    .how-section {
+        height: calc(542px - 110px);
+        width: calc(100% - 84px);
+        padding: 110px 42px 0px 42px;
+        justify-content: center;
+    }
+
+    .how-section__steps-wrapper {
+        gap: 60px;
+    }
+
+    .how-section__text {
+        width: 174px;
     }
 }
 
@@ -630,6 +669,11 @@ h6 {
         font-weight: 600;
         font-size: 16px;
         line-height: 110%;
+    }
+
+    .how-section {
+        width: calc(100% - 128px);
+        padding: 110px 64px 0px 64px;
     }
 }
 
