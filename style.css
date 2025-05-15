@@ -568,7 +568,7 @@ h6 {
 
 .cost-section___subscription-wrapper {
     position: relative;
-    width: 418px;
+    width: 422px;
     height: fit-content;
 
     display: flex;
@@ -576,6 +576,7 @@ h6 {
     align-items: flex-start;
     gap: 24px;
     margin-top: 8px;
+    z-index: 1;
 }
 
 .subscription-line-wrapper {
@@ -676,7 +677,8 @@ h6 {
 
 .cost-section__image {
     position: relative;
-    padding-left: 8px;
+    width: 720px;
+    height: 481px;
 }
 
 /* ADAPTATION STARTS HERE */
@@ -745,7 +747,7 @@ h6 {
     }
 
     .how-section {
-        height: calc(542px - 110px);
+        height: calc(510px - 110px) ;
         width: calc(100% - 84px);
         padding: 110px 42px 0px 42px;
         gap: 64px;
@@ -763,6 +765,17 @@ h6 {
     .how-section__step {
         gap: 24px;
     }
+
+    .cost-section {
+        width: calc(100% - 92px);
+        height: 601px;
+        padding: 0px 46px 0px 46px;
+    }
+
+    .cost-section__title-wrapper {
+        gap: 28px;
+    }
+
 }
 
 @media only screen and (max-width: 1024px) { 
