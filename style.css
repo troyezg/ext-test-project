@@ -1169,12 +1169,25 @@ h6 {
 
     .request-section {
         width: calc(100% - 84px);
-        padding: 50px 42px 130px 42px;
+        padding: 50px 42px 100px 42px;
     }
 
     .request-section__background {
         width: calc(100% - 120px);
         padding: 100px 60px 0px 60px;
+    }
+
+    .footer {
+        width: calc(100% - 84px);
+        padding: 0px 42px;
+    }
+
+    .footer__contacts {
+        width: 220px;
+    }
+
+    .footer__logo-wrapper {
+        width: 220px;
     }
 }
 
