@@ -828,6 +828,25 @@ h6 {
         gap: 26px;
     }
 
+    .partners-section {
+        gap: 80px;
+        width: calc(100% - 84px);
+        padding: 100px 42px 20px 42px;
+    }
+
+    .partners-section__image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .partners-section__data-wrapper {
+        gap: 30px;
+        margin-top: 15px;
+    }
+
+    .be-partner-button {
+        margin: 0;
+    }
 }
 
 @media only screen and (max-width: 1024px) { 
