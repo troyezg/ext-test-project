@@ -15,6 +15,9 @@
     font-optical-sizing: auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -22,6 +25,10 @@ body {
     flex-direction: column;
     width: 100%;
     height: fit-content;
+}
+
+a {
+    text-decoration: none;
 }
 
 p {
