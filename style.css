@@ -1285,4 +1285,38 @@ h6 {
     .get-subscription-button {
         margin-top: 6px;
     }
+
+    .partners-section {
+        width: calc(100% - 20px);
+        padding: 50px 10px 20px 10px;
+    }
+
+    .partners-section__image {
+        width: 320px;
+        height: 320px;
+        margin: 0;
+    }
+
+    .partners-section__data-wrapper {
+        width: 100%;
+        margin: 0;
+        gap: 24px;
+    }
+
+    .partners-section__title {
+        width: 280px;
+    }
+
+    .partners-section__text {
+        width: 100%;
+        height: fit-content;
+        margin-top: 4px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+    }
 }
