@@ -137,6 +137,30 @@
         </div>
         <img id="api-section-desktop" class="api-section__image" src="./images/api-image.png" alt="Api section image" />
     </section>
+    <section class="request-section">
+        <div class="request-section__background">
+            <div class="request-section__data-wrapper">
+                <h2 class="request-section__title">Оставьте заявку</h2>
+                <h5 class="request-section__text">Заполните форму, в ближайшее время мы свяжемся с вами и продемонстрируем работу нашего сервиса</h5>
+            </div>
+            <div class="request-section__form-block">
+                <input type="text" class="request-section__input" id="request-name-form" placeholder="Ваше имя" onchange="InputValidation('request-name-form')"/>
+                <input type="number" class="request-section__input" id="request-number-form" placeholder="Номер телефона" onchange="InputValidation('request-number-form')"/>
+                <button class="green-button send-request-button">
+                    <span class="green-button__text">Оставить заявку</span>
+                </button>
+                <input type="checkbox" class="request-section__checkbox" id="request-checkbox" onclick="PrettyCheckbox()"/>
+                <div class="request-section__checkbox-wrapper">
+                    <label for="request-checkbox" class="request-section__chekbox-label">
+                        <svg id="request-checkbox-icon" class="request-section__checkbox-icon" width="0" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 3L3.25 5L7 1" stroke="#39B54A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </label>
+                    <p class="request-section__checkbox-agreement">Я согласен с политикой обработки персональных данных</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="burger-menu" id="burger-menu">
         <img class="mobile-header-logo" src="./images/logo.svg" alt="Header logo image"/>
         <nav class="burger-menu__navigation-wrapper">

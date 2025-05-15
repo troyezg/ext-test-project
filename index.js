@@ -23,3 +23,37 @@ function BurgerMenu() {
         document.body.style.overflow = 'hidden';
     }
 }
+
+function PrettyCheckbox() {
+    let checkbox = document.getElementById("request-checkbox");
+    let checkboxIcon = document.getElementById("request-checkbox-icon");
+    if (checkbox.checked) {
+        console.log("Галочка!");
+        checkboxIcon.setAttribute("width", "10");
+    } else {
+        console.log("Не галочка!");
+        checkboxIcon.setAttribute("width", "0");
+    }
+}
+
+function InputValidation(id) {
+    let input = document.getElementById(id);
+    if (id == 'request-name-form') {
+        if (input.value.trim().length > 0 && isNaN(input.value.trim())) {
+        input.classList.add("validation-success");
+        input.classList.remove("validation-error");
+        } else {
+            input.classList.add("validation-error");
+            input.classList.remove("validation-success");
+        }
+    } else if (id == 'request-number-form') {
+        const phoneTemplate = /^\+?[0-9]{10,15}$/;
+        if (phoneTemplate.test(input.value.trim())) {
+            input.classList.add("validation-success");
+            input.classList.remove("validation-error");
+        } else {
+            input.classList.add("validation-error");
+            input.classList.remove("validation-success");
+        }
+    }
+}
