@@ -1428,7 +1428,7 @@ h6 {
 
     .request-section {
         width: calc(100% - 128px);
-        padding: 30px 64px 130px 64px;
+        padding: 30px 64px 70px 64px;
     }
 
     .request-section__background {
@@ -1468,6 +1468,25 @@ h6 {
     .request-section__chekbox-label {
         min-width: 16px;
         min-height: 16px;
+    }
+
+    .footer {
+        width: calc(100% - 128px);
+        height: 257px;
+        padding: 0px 64px;
+    }
+
+    .footer__rights-sign {
+        width: 10px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 157px;
+    }
+
+    .footer__contacts {
+        margin-top: 4px;
     }
 }
 
