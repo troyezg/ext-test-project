@@ -795,6 +795,11 @@ h6 {
     display: none;
 }
 
+.api-section__title-wrapper {
+    width: fit-content;
+    height: fit-content;
+}
+
 /* ADAPTATION STARTS HERE */
 
 @media only screen and (max-width: 1270px) { 
@@ -1125,6 +1130,44 @@ h6 {
 
     #partners-image-mobile {
         display: block;
+    }
+    
+    #api-section-desktop {
+        display: none;
+    }
+
+    #api-section-mobile {
+        display: block;
+    }
+
+    .api-section {
+        justify-content: center;
+        padding: 3px 42px 70px 42px;
+    }
+
+    .api-section__data-wrapper {
+        align-items: center;
+        gap: 30px;
+    }
+
+    .api-section__text {
+        width: 608px;
+        text-align: center;
+    }
+
+    .methods-button {
+        margin: 0;
+    }
+
+    .api-section__title {
+        position: absolute;
+        left: calc((100% - 67px) / 2);
+    }
+
+    .api-section__image {
+        object-fit: cover;
+        object-position: bottom;
+        height: 480px;
     }
 }
 
