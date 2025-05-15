@@ -950,6 +950,89 @@ h6 {
     border: 1px solid #50E965;
 }
 
+.footer {
+    position: relative;
+    height: 201px;
+    width: calc(100% - 260px);
+    padding: 0px 130px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__logo-wrapper {
+    position: relative;
+    width: 295px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__logo {
+    position: relative;
+    width: 209px;
+    height: 33px;
+}
+
+.footer__logo-sign {
+    position: relative;
+    width: 229px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #0E243A;
+}
+
+.footer__rights-sign {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 20px;
+
+    color: #0E243A;
+
+}
+
+.footer__contacts {
+    position: relative;
+    width: 295px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contacts__line {
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+}
+
+.contacts__text {
+    color: #0E243A;
+}
+
 /* ADAPTATION STARTS HERE */
 
 @media only screen and (max-width: 1270px) { 
