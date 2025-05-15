@@ -779,6 +779,12 @@ h6 {
     opacity: 0.8;
 }
 
+.api-section__image {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
 .methods-button {
     width: 213px;
     height: 48px;
@@ -899,6 +905,25 @@ h6 {
     .be-partner-button {
         margin: 0;
     }
+
+    .api-section {
+        width: calc(100% - 84px);
+        padding: 7px 42px 70px 42px;
+        justify-content: space-between;
+        gap: 0px;
+    }
+
+    .api-section__data-wrapper {
+        width: 442px;
+    }
+
+    .api-section__text {
+        width: 460px;
+    }
+
+    .api-section__image {
+        margin-top: 8px;
+    }
 }
 
 @media only screen and (max-width: 1024px) { 
@@ -909,7 +934,7 @@ h6 {
     }
 
     .know-more-button {
-        margin-top: 2px;
+        margin-top: 5px;
     }
 }
 
