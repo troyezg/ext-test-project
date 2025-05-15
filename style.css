@@ -523,6 +523,7 @@ h6 {
     width: calc(100% - 260px);
     height: 601px;
     padding: 0px 130px 0px 130px;
+    overflow: hidden;
 }
 
 .cost-section__title-wrapper {

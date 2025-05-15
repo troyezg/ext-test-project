@@ -14,10 +14,12 @@ function BurgerMenu() {
         document.getElementById("burger-menu-icon").classList.remove("icon-menu-opened");
         document.getElementById("burger-menu-button").classList.remove("burger-menu-icon-active");
         document.getElementById("blackout").style.display = 'none';
+        document.body.style.overflow = '';
     } else {
         BurgerMenu.style.right = '0px';
         document.getElementById("burger-menu-icon").classList.add("icon-menu-opened");
         document.getElementById("burger-menu-button").classList.add("burger-menu-icon-active");
         document.getElementById("blackout").style.display = 'block';
+        document.body.style.overflow = 'hidden';
     }
 }
