@@ -1328,6 +1328,50 @@ h6 {
         object-position: bottom;
         height: 480px;
     }
+
+    .request-section {
+        width: calc(100% - 128px);
+        padding: 30px 64px 130px 64px;
+    }
+
+    .request-section__background {
+        flex-direction: column;
+        height: calc(580px - 100px);
+        gap: 50px;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 90px 60px 0px 60px;
+    }
+
+    .request-section__title {
+        text-align: center;
+    }
+
+    .request-section__text {
+        text-align: center;
+    }
+
+    .request-section__input {
+        width: 377px;
+    }
+
+    .send-request-button {
+        width: 417px;
+        height: 48px;
+    }
+
+    .request-section__checkbox-wrapper {
+        width: 417px;
+    }
+
+    .request-section__checkbox-agreement {
+        white-space: nowrap;
+    }
+
+    .request-section__chekbox-label {
+        min-width: 16px;
+        min-height: 16px;
+    }
 }
 
 @media only screen and (max-width: 767px) {  
