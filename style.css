@@ -737,6 +737,54 @@ h6 {
     display: none;
 }
 
+.api-section {
+    width: calc(100% - 260px);
+    height: fit-content;
+    padding: 0px 130px 70px 130px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 103px;
+}
+
+.api-section__data-wrapper {
+    position: relative;
+    width: 540px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 80px;
+}
+
+.api-section__title {
+    position: relative;
+    color: #0E243A;
+}
+
+.api-section__text {
+    position: relative;
+    width: 520px;
+    color: #0E243A;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #0E243A;
+    opacity: 0.8;
+}
+
+.methods-button {
+    width: 213px;
+    height: 48px;
+    margin-top: 8px;
+}
+
 /* ADAPTATION STARTS HERE */
 
 @media only screen and (max-width: 1270px) { 
