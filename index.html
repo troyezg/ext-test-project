@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__navigation-wrapper">
+        <div class="header__navigation-wrapper" id="header-navigation">
             <img class="header__logo" src="./images/logo.svg" alt="Header logo image"/>
             <div class="header__buttons-wrapper">
                 <nav class="header__navigation">
@@ -19,8 +19,12 @@
                 </nav>
                 <button class="transparent-button header-request-button"><span class="transparent-button__text">Оставить заявку</span></button>
             </div>
-            <button class="header__burger-menu">
-                <img class="header__burger-menu-icon" src="./images/burger-menu-icon.svg" alt="Burger menu icon" />
+            <button class="header__burger-menu" id="burger-menu-button">
+                <div id="burger-menu-icon" class="header__burger-menu-icon" onmouseenter="BurgerHover()" onmouseleave="BurgerLeave()" onclick="BurgerMenu()">
+                    <div class="burger-menu-icon__line" id="burger-menu-icon-line-1"></div>
+                    <div class="burger-menu-icon__line" id="burger-menu-icon-line-2"></div>
+                    <div class="burger-menu-icon__line" id="burger-menu-icon-line-3"></div>
+                </div>
             </button>
         </div>
         <div class="header__hero-wrapper">
@@ -35,7 +39,17 @@
             <img class="header__main-image" src="./images/main-page-image.svg" alt="Header main image" />
         </div>
     </header>
-    
+    <div class="burger-menu" id="burger-menu">
+        <img class="mobile-header-logo" src="./images/logo.svg" alt="Header logo image"/>
+        <nav class="burger-menu__navigation-wrapper">
+            <a class="burger-menu__navigation">Как это работает?</a>
+            <a class="burger-menu__navigation">Стоимость</a>
+            <a class="burger-menu__navigation">API</a>
+            <a class="burger-menu__navigation">Контакты </a>
+        </nav>
+        <button class="transparent-button mobile-request-button"><span class="transparent-button__text">Оставить заявку</span></button>
+    </div>
+    <div class="blackout" id="blackout" onclick="BurgerMenu()"></div>
 </body>
 <script src="./index.js"></script>
 </html>
