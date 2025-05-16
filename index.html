@@ -17,7 +17,7 @@
                     <a class="navigation__link" href="#api-section">API</a>
                     <a class="navigation__link" href="#footer">Контакты</a>                
                 </nav>
-                <button class="transparent-button header-request-button"  onclick="document.getElementById('request-section').scrollIntoView({ behavior: 'smooth' });"><span class="transparent-button__text">Оставить заявку</span></button>
+                <a class="transparent-button header-request-button"  href="#request-section"><span class="transparent-button__text">Оставить заявку</span></a>
             </div>
             <button class="header__burger-menu" id="burger-menu-button">
                 <span id="burger-menu-icon" class="header__burger-menu-icon" onmouseenter="BurgerHover()" onmouseleave="BurgerLeave()" onclick="BurgerMenu()">
@@ -198,7 +198,7 @@
             <a class="burger-menu__navigation" href="#api-section" onclick="BurgerMenu()">API</a>
             <a class="burger-menu__navigation" href="#footer" onclick="BurgerMenu()">Контакты </a>
         </nav>
-        <button class="transparent-button mobile-request-button"  onclick="document.getElementById('request-section').scrollIntoView({ behavior: 'smooth' });BurgerMenu();"><span class="transparent-button__text">Оставить заявку</span></button>
+        <a class="transparent-button mobile-request-button" href="#request-section" onclick="BurgerMenu()"><span class="transparent-button__text">Оставить заявку</span></a>
     </div>
     <div class="blackout" id="blackout" onclick="BurgerMenu()"></div>
 </body>
