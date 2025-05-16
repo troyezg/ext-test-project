@@ -762,6 +762,7 @@ h6 {
 }
 
 .partners-section__text {
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1074,6 +1075,11 @@ h6 {
 }
 
 .contacts__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
     color: #0E243A;
 }
 
