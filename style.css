@@ -465,9 +465,22 @@ h6 {
 }
 
 .mobile-header-logo {
+    position: relative;
     width: 168px;
     height: 26px;
     margin-top: 0px;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.mobile-header-logo--active {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.mobile-header-logo--hidden {
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out !important;
 }
 
 .burger-menu-icon-active {
