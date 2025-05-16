@@ -7,7 +7,7 @@ function BurgerLeave() {
 }
 
 function BurgerMenu() {
-    let BurgerMenu = document.getElementById("burger-menu");
+    const BurgerMenu = document.getElementById("burger-menu");
     console.log(BurgerMenu.style.display);
     if (BurgerMenu.style.right == '0px') {
         BurgerMenu.style.right = '-300px';
@@ -29,8 +29,8 @@ function BurgerMenu() {
 }
 
 function PrettyCheckbox() {
-    let checkbox = document.getElementById("request-checkbox");
-    let checkboxIcon = document.getElementById("request-checkbox-icon");
+    const checkbox = document.getElementById("request-checkbox");
+    const checkboxIcon = document.getElementById("request-checkbox-icon");
     if (checkbox.checked) {
         console.log("Галочка!");
         checkboxIcon.setAttribute("width", "10");
@@ -41,7 +41,7 @@ function PrettyCheckbox() {
 }
 
 function InputValidation(id) {
-    let input = document.getElementById(id);
+    const input = document.getElementById(id);
     if (id == 'request-name-form') {
         if (input.value.trim().length > 0 && isNaN(input.value.trim())) {
         input.classList.add("validation-success");
